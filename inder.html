@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="current-info">
+                <div class="date-container">
+                    <div class="time" id="time">
+                        
+                    </div>
+                    <p class="date" id="day1"></p>
+                        
+                   
+
+                    <div class="others" id="current-weather-items">
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-item" id="img1">
+                         <div class="weather-item">                          
+                            <p id="day1Temp"></p>
+                        </div>
+                         <div class="weather-item">                           
+                            <p id="day1Wind"></p>
+                        </div>
+                        <div class="weather-item">
+                            <p id="day1Humidity"></p>
+                        </div>              
+                    </div>
+                </div>
+
+                <div class="place-container">
+                    <div class="time-zone" id="inputContainer">City: <input type="text" id="cityInput"> </div>
+                    <button onclick="GetInfo()" >Search</button>
+                    <h3 id="cityName"></h3>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="future-forecast">
+            
+            <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                    <div class="day" id="day2"></div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon" id="img1">
+                    <p class="temp" id="day2Temp"></p>
+                    <p class="temp" id="day2Wind"></p>
+                    <p class="temp" id="day2Humidity"></p>
+                    
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day" id="day3"></div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon" id="img2">
+                    <p class="temp" id="day3Temp"></p>
+                    <p class="temp" id="day3Wind"></p>
+                    <p class="temp" id="day3Humidity"></p>
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day" id="day4"></div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon" id="img3">
+                    <p class="temp" id="day4Temp"></p>
+                    <p class="temp" id="day4Wind"></p>
+                    <p class="temp" id="day4Humidity"></p>
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day" id="day5"></div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon" id="img4">
+                    <p class="temp" id="day5Temp"></p>
+                    <p class="temp" id="day5Wind"></p>
+                    <p class="temp" id="day5Humidity"></p>
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day" id="day6"></div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon" id="img5">
+                    <p class="temp" id="day6Temp"></p>
+                    <p class="temp" id="day6Wind"></p>
+                    <p class="temp" id="day6Humidity"></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
