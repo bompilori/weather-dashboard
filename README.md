@@ -32,6 +32,6 @@ The following images shows final work of the application functionality
 
 submit review:
 
-* The URL of the deplyer application. [submitted](https://bompilori.github.io/weather-dashborad/)
+* <!-- The URL of the deplyer application. [submitted](https://bompilori.github.io/weather-dashborad/) -->
 
 * The URL of the GitHub repository. [submitted](https://github.com/bompilori/weather-dashborad.git)
